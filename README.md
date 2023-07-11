@@ -3,7 +3,7 @@
 Frontend:
 
   Setup:
-    cd cleint/
+    cd cleint/,
     pnpm install
     
   Launch: 
@@ -16,13 +16,13 @@ Frontend:
 Backend:
 
   Setup:
-    cd api/
+    cd api/,
     pnpm install
     
   Launch:
     pnpm start:dev
     
   Test:
-    add your "sst.grid" file to /api/tests/resources/
+    add your "sst.grid" file to /api/tests/resources/, 
     pnpm test:watch
     
