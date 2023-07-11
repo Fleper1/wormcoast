@@ -1,0 +1,64 @@
+.navMenu {
+    padding-top: 20px;
+    position: sticky;
+    display: grid;
+    justify-content: center;
+    grid-template-columns: 80px 100px 100px;
+    grid-template-rows: 1.2em 20px;
+    top: 0;
+    left: 0;
+    background: #6a7996;
+    z-index: 1002;
+}
+
+.link{}
+
+.navMenu .link {
+    color: #f6f4e6;
+    text-decoration: none;
+    font-size: 1.2em;
+    text-transform: uppercase;
+    font-weight: 500;
+    display: inline-block;
+    width: 80px;
+    -webkit-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+}
+
+.navMenu .link:hover {
+    color: #fddb3a;
+}
+
+.navMenu .dot {
+    width: 6px;
+    height: 6px;
+    background: #fddb3a;
+    border-radius: 50%;
+    opacity: 0;
+
+    transform: translateX(30px);
+    -webkit-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+}
+
+.navMenu .link:nth-child(1):hover ~ .dot {
+
+    transform: translateX(25px);
+    -webkit-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+    opacity: 1;
+}
+
+.navMenu .link:nth-child(2):hover ~ .dot {
+    transform: translateX(115px);
+    -webkit-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+    opacity: 1;
+}
+
+.navMenu .link:nth-child(3):hover ~ .dot {
+    transform: translateX(235px);
+    -webkit-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+    opacity: 1;
+}

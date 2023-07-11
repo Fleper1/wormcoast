@@ -1,0 +1,8 @@
+{
+  "watch": [
+    "dist/"
+  ],
+  "ext": "js",
+  "quiet": true,
+  "delay": 1000
+}
